@@ -8,7 +8,7 @@ class StudentsController < ApplicationController
   def show
   end
 
-  priate
+  
 
     def set_student
       @student = Student.find(params[:id])
